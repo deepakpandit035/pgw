@@ -1,0 +1,16 @@
+project-root/
+├── config/
+│   └── config.php
+├── src/
+│   ├── PaymentGateway/
+│   │   ├── PaymentGatewayInterface.php
+│   │   ├── PayPalGateway.php
+│   │   ├── StripeGateway.php
+│   │   └── PaymentProcessor.php
+│   └── Factory/
+│       └── PaymentGatewayFactory.php
+├── public/
+│   └── index.php
+├── vendor/
+├── composer.json
+└── README.md
